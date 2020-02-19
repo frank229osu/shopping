@@ -1,7 +1,7 @@
 const addButton = document.getElementById('addButton') as HTMLInputElement;
 const itemToAdd = document.getElementById('itemToAdd') as HTMLInputElement;
 const list = document.getElementById('list') as HTMLUListElement;
-const count = document.getElementById('list') as HTMLSpanElement;
+const count = document.getElementById('count') as HTMLSpanElement;
 
 let items: ShoppingItem[] = [];
 
