@@ -1,3 +1,4 @@
+
 const addButton = document.getElementById('addButton') as HTMLInputElement;
 const itemToAdd = document.getElementById('itemToAdd') as HTMLInputElement;
 const list = document.getElementById('list') as HTMLUListElement;
@@ -47,6 +48,7 @@ function createItemInDom(item: ShoppingItem) {
     li.appendChild(text);
     list.insertBefore(li, list.firstChild);
 }
+
 
 function saveIt() {
     localStorage.setItem('shopping-list', JSON.stringify(items));
